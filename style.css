@@ -2,17 +2,25 @@ body {
   margin: 0;
   background-color: #454A45;
 }
-html {
-  color: #D6D6C2;
-}
-h1 {
-  font-family: sans-serif;
-  font-size: 58pt;
+header {
+  color: #000000;
 }
 main {
   padding: 15px;
   background-color: #000000;
 }
+h1 {
+  color: #D6D6C2;
+  font-family: sans-serif;
+  font-size: 58pt;
+}
+footer {
+  color: #000000;
+}
+a:link    { color: blue;  }
+a:visited { color: red;   }
+a:hover   { color: green; }
+a:active  { color: pink;  }
 /*class to align a given element to the center*/
 .align-center {
   text-align: center;
