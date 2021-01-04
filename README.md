@@ -1,2 +1,2 @@
-# ThinkfulProject1
+# ThinkfulWebsite
 First Thinkful Project
