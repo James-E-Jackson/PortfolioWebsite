@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #000000;
+  background-color: #454A45;
 }
 h1 {
   color: #D6D6C2;
@@ -9,7 +9,7 @@ h1 {
 }
 main {
   padding: 15px;
-  background-color: #454A45;
+  background-color: #000000;
 }
 /*class to align a given element to the center*/
 .align-center {
