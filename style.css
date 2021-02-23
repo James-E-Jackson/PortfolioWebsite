@@ -1,17 +1,66 @@
+/*---------- General Styles -----------*/
 body {
   margin: 0;
   background-color: #ffffff;
+  background-image: url(images/bg-pattern.jpg);
 }
 header {
-  color: #000000;
+  color: #D6D6C2;
+  background-color: #1a1a1a;
+}
+.name{
+  font-family: Montserrat;
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0 0 0;
+}
+
+/*---------- Navigation -----------*/
+header nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 0;
+}
+header nav ul li {
+  list-style-type: none;
+}
+header nav ul li a {
+  color:#D6D6C2;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+  font-family: Montserrat;
+}
+header nav ul li a:hover {
+  color:#999966;
+}
+
+@media all and (min-width: 800px)
+{
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .name{
+    margin: 14px 0 14px 20px;
+    padding-top: 0;
+    font-size: 30px;
+  }
+  header nav {
+    margin-top: 14px;
+  }
 }
 main {
   padding: 15px;
-  background-color: #000000;
-  color: #D6D6C2
+  color: #D6D6C2;
 }
 h1 {
-  color: #000000;
+  color: #D6D6C2;
   font-family: sans-serif;
   font-size: 58pt;
 }
@@ -19,13 +68,11 @@ h3 {
   height: 50px;
 }
 footer {
-  color: #000000;
+  color: #D6D6C2;
 }
-a:link    { color: blue;  }
-a:visited { color: red;   }
-a:hover   { color: green; }
-a:active  { color: pink;  }
+
 /*class to align a given element to the center*/
 .align-center {
   text-align: center;
 }
+

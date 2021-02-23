@@ -2,27 +2,35 @@
 <html>
   <head>
     <!---generic requirements--->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>James Jackson</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>James Jackson | Software Developer | Portfolio</title>
     <!---unneeded css link for now, plan to utilize later--->
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <header>
       <!---calling the css class to align element to the center--->
-      <div class="align-center">
-        <h1>James E Jackson</h1>
-        <p>Software Developer</p>
-      </div>
-      <hr>
+      <div class="name">James E Jackson</div>
+      <nav>
+        <ul id="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-      <div class="align-center">
-        <img src="images/selfie.jpg" width="300" alt="selfie"/>
-        <!---importing image file--->
+      <div class="group">
+        <div class="item">
+          <img src="images/selfie.jpg" width="300" alt="selfie" />
+          <!---importing image file--->
+        </div>
+        <div class="item">
+          <h1 class="align-center">Hi, I'm James Jackson</h1>
+        </div>
       </div>
-      <h2 class="align-center">Hi, I'm James Jackson</h2>
       <p>I am a software developer living in Matthews, North Carolina.</p>
       <p>Other than software, my hobbies include:</p>
       <!---unordered list--->
@@ -31,21 +39,30 @@
         <li>Path of Exile</li>
         <li>Reading Novels</li>
       </ul>
-      <hr>
-      <h3 class="align-center">About James</h3>
-      <p>Formerly a student at the Computer Science department of UNCC,
-        I am putting my degree on hold due to the poor transition from
-        in person to online classes during the COVID-19 crisis. During
-        this time, I will be participating in an online coding bootcamp
-        at Thinkful to get myself ready for the workplace.</p>
-      <hr>
+      <hr />
+      <h2 class="align-center">About James</h2>
+      <p>
+        Formerly a student at the Computer Science department of UNCC, I am
+        putting my degree on hold during the COVID-19 crisis. During this time,
+        I will be participating in an online coding bootcamp at Thinkful to
+        enter the field as soon as possible.
+      </p>
+      <hr />
     </main>
     <footer class="align-center">
       <h2>Contact James</h2>
       <!---ordered list--->
       <ol>
-        <li><a href="https://www.linkedin.com/in/j-e-jackson/" target="_blank">LinkedIn</a></li>
-        <li><a href="https://github.com/James-E-Jackson" target="_blank">Github</a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/j-e-jackson/" target="_blank"
+            >LinkedIn</a
+          >
+        </li>
+        <li>
+          <a href="https://github.com/James-E-Jackson" target="_blank"
+            >Github</a
+          >
+        </li>
       </ol>
     </footer>
     <script src="script.js"></script>
